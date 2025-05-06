@@ -168,6 +168,7 @@ section {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../imgs/bg.jpg);
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .home h2 {
@@ -432,7 +433,7 @@ section {
   transform: rotateY(180deg) scale(0.5, 0.5);
 }
 
-.card .img:hover .layer {
+.card:hover .layer {
   opacity: 1;
   transform: rotateY(0deg) scale(1, 1);
 }
